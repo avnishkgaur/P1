@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="120dip"
+        android:layout_height="120dip"
+		android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@string/hello_world" />
+
+    <EditText
+        android:id="@+id/query"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView1"
+        android:layout_marginTop="60dip"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:hint="@string/query"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_search"
+        android:layout_below="@id/imageView1"
+        android:drawablePadding="-32dip"
+        android:layout_marginTop="160dip"
+        android:text="@string/search"
+	    android:paddingLeft="60dip"
+    	android:paddingRight="26dip"
+        android:textColor="#111"
+        android:background="#eee"
+        android:textSize="30sp" />
+    
+    
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hiker</string>
+    <string name="loc_name">Tourist Attractions</string>
+    <string name="plan_name">Your Tour Plan</string>
+    <string name="desc">Image</string>
+    <string name="popu">Popular</string>
+    <string name="del">Delhi</string>
+    <string name="agra">Agra</string>
+    <string name="maps">Maps</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="query">Enter search query</string>
+    <string name="search">Search</string>
+    
+</resources>

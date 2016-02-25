@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+ 
+    
+    <!-- Rightend Arrow -->
+    <TextView
+        android:id="@+id/sep1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dip"
+        android:paddingLeft="6dip"
+        android:text="|"
+        android:textSize="20sp"
+        android:textColor="#ccc"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />\
+
+    <TextView
+        android:id="@+id/sep2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="36dip"
+        android:paddingLeft="6dip"
+        android:text="|"
+        android:textSize="20sp"
+        android:textColor="#ccc"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />\
+
+    <TextView
+        android:id="@+id/timeToReach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:text="30 minutes"
+        android:layout_below="@id/sep2"
+        android:textSize="20sp"
+        android:textColor="#aaa"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />\
+    
+    <TextView
+        android:id="@+id/sep3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:text="|"
+        android:layout_below="@id/timeToReach"
+        android:textSize="20sp"
+        android:textColor="#ccc"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />\
+
+    <TextView
+        android:id="@+id/sep4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="26dip"
+        android:paddingLeft="6dip"
+        android:layout_below="@id/timeToReach"
+        android:text="|"
+        android:textSize="20sp"
+        android:textColor="#ccc"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />\
+
+    <TextView
+        android:id="@+id/timeNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:paddingLeft="6dip"
+        android:layout_below="@id/sep4"
+        android:visibility="gone"
+        android:text="7:20 AM"
+        android:textSize="14sp"
+        android:textColor="#aaa"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />\
+
+    <TextView
+        android:id="@+id/LocName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:layout_below="@id/timeNow" 
+        android:text="Kuala Lumpur"
+        android:textSize="20sp"
+        android:textColor="#111"
+        android:textStyle="bold" />
+ 
+    <TextView
+        android:id="@+id/LocAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:layout_below="@id/LocName" 
+        android:text="Petronas Towers, Near Kuala Lumpur, Malaysia"
+        android:textSize="16sp"
+        android:textColor="#777"
+        android:textStyle="bold" />
+ 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:paddingLeft="6dip"
+        android:layout_below="@+id/LocAddr"
+        android:text="(spend 30 minutes)"
+        android:textSize="14sp"
+        android:textColor="#aaa"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />\
+ 
+    <TextView
+        android:id="@+id/LocLat"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="#333"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/LocLng"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="#333"
+        android:textStyle="bold" />
+
+     
+ 
+</RelativeLayout>

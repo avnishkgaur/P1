@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fLocName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#111"
+        android:textStyle="bold" />
+ 
+    <TextView
+        android:id="@+id/fLocAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:layout_below="@id/fLocName" 
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="#777"
+        android:textStyle="bold" />
+    
+    <ImageButton
+        android:id="@+id/btnMaps"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:src="@drawable/maps" />
+    
+    <ListView android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/fLocAddr"
+        android:layout_above="@id/btnPlanTrip" />
+     
+</RelativeLayout>
